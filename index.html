@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+   <p>Секундомер</p>
+      
+        <form name=MyForm>  
+            <input class = "secundomer" name = stopwatch value ="00:00.00"> <br>  
+            <div class ="buttons">
+                <input class = "disch" id = "disch" type = button value = "Сброс" onclick ="ClearСlock()">  
+                <input class = "startStop" name = "startStop" type = button value = "Старт" onclick ="StartStop()"> 
+                <input class = "circle" type = button value = "Круг" onclick = "CircleTime()">
+            </div>    
+            <ul></ul>
+            
+       </form>
+    <script src="script.js"></script>
+</body>
+</html>
